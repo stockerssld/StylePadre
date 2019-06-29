@@ -1,0 +1,22 @@
+{
+  "name": "StylePadre",
+  "source-directories": [
+    "source"
+  ],
+  "test-directories": [
+    "tests"
+  ],
+  "application":{
+    "title":"StylePadre - Una libreria hecha para Mint Lang",
+    "orientation":"portrait",
+    "display":"standalone",
+    "name":"StylePadre",
+    "meta":{
+      "og:title":"StylePader",
+      "og:description":"StylePadere - Una libreria hecha para Ming Lang",
+      "charset":"utf-8",
+      "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no"
+
+    }
+  }
+}
