@@ -1,6 +1,6 @@
 component Column {
     connect StylePadreGrid exposing {theme}
-    property children :Array(Html) = []
+    property children : Array(Html) = []
     property col : Number = 0
     property textAlign : String = ""
 
@@ -12,8 +12,8 @@ component Column {
         flex-grow: 1;
         flex-shrink: 1;
         padding: 0.75rem;
-        background:{background};
-        width:{colWith.width};
+        background:background;
+        width: colWith.width;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
 
@@ -23,7 +23,7 @@ component Column {
         float: left;
         position: relative;
         
-        text-align: {textAlign};
+        text-align: textAlign;
     }
 
       get colWith : StylePadreGrid.Grid.Column {

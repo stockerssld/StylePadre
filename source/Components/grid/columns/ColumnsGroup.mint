@@ -12,9 +12,9 @@ component Columns.Group {
         -webkit-box-sizing: border-box;
                 box-sizing: border-box;
         
-        justify-content: {justifyGrid.justiftcenter};
-        -webkit-box-pack: {justifyGrid.webkitboxpack};
-            -ms-flex-pack: {justifyGrid.msflexpack};
+        justify-content: justifyGrid.justiftcenter;
+        -webkit-box-pack: justifyGrid.webkitboxpack;
+            -ms-flex-pack: justifyGrid.msflexpack;
    
         &::after {
             display: table;

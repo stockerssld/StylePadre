@@ -1,0 +1,7 @@
+ Instalar
+ "dependencies":{
+    "StylePadre":{
+      "repository": "https://github.com/stockerssld/StylePadre",
+      "constraint": "0.0.1 <= v < 7.0.0"
+    }
+  }
